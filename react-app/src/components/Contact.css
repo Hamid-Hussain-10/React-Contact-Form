@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: rgba(207, 97, 97, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(248, 46, 46, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .contact-form:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .form-textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .form-button:active {
+    background-color: #004080;
+    transform: translateY(0);
+  }
+  
